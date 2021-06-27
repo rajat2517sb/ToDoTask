@@ -34,6 +34,7 @@ class ModifyViewController              : UIViewController {
             btnAdd.isHidden               = false
             txtTitle.textColor            = .lightGray
             txtDescription.textColor      = .lightGray
+            btnAdd.layer.cornerRadius     = 5
         }else{
             self.title                    = "Modify Task"
             txtTitle.text                 = taskData?.title
